@@ -1,0 +1,35 @@
+.listCard {
+    padding: 10px;
+    color: black;
+  }
+  .search-input {
+    height: 40px;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px; 
+  }
+ .listCard {
+   padding: 7px;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   width: 100%; 
+   /* color: white; */
+   
+ }
+ /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  ul {
+    display: block;
+    /* grid-template-columns: auto auto auto; */
+    /* background-color: #2196f3; */
+    padding: 10px;
+  }
+}
